@@ -1,0 +1,4 @@
+/.idea
+/notebooks/.ipynb_checkpoints
+/config/__pycache__
+/db/__pycache__

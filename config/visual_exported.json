@@ -1,0 +1,401 @@
+[
+  {
+    "config": {
+      "defaultAggregated": true,
+      "geoms": [
+        "auto"
+      ],
+      "coordSystem": "generic",
+      "limit": -1,
+      "timezoneDisplayOffset": 0,
+      "folds": [
+        "prices.amountMax"
+      ]
+    },
+    "encodings": {
+      "dimensions": [
+        {
+          "fid": "id",
+          "name": "id",
+          "basename": "id",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "prices.availability",
+          "name": "prices.availability",
+          "basename": "prices.availability",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "prices.condition",
+          "name": "prices.condition",
+          "basename": "prices.condition",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "prices.currency",
+          "name": "prices.currency",
+          "basename": "prices.currency",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "prices.dateSeen",
+          "name": "prices.dateSeen",
+          "basename": "prices.dateSeen",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "prices.isSale",
+          "name": "prices.isSale",
+          "basename": "prices.isSale",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "prices.merchant",
+          "name": "prices.merchant",
+          "basename": "prices.merchant",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "prices.shipping",
+          "name": "prices.shipping",
+          "basename": "prices.shipping",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "prices.sourceURLs",
+          "name": "prices.sourceURLs",
+          "basename": "prices.sourceURLs",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "asins",
+          "name": "asins",
+          "basename": "asins",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "brand",
+          "name": "brand",
+          "basename": "brand",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "categories",
+          "name": "categories",
+          "basename": "categories",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "dateAdded",
+          "name": "dateAdded",
+          "basename": "dateAdded",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "dateUpdated",
+          "name": "dateUpdated",
+          "basename": "dateUpdated",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "ean",
+          "name": "ean",
+          "basename": "ean",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "imageURLs",
+          "name": "imageURLs",
+          "basename": "imageURLs",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "keys",
+          "name": "keys",
+          "basename": "keys",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "manufacturer",
+          "name": "manufacturer",
+          "basename": "manufacturer",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "manufacturerNumber",
+          "name": "manufacturerNumber",
+          "basename": "manufacturerNumber",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "name",
+          "name": "name",
+          "basename": "name",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "primaryCategories",
+          "name": "primaryCategories",
+          "basename": "primaryCategories",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "sourceURLs",
+          "name": "sourceURLs",
+          "basename": "sourceURLs",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "upc",
+          "name": "upc",
+          "basename": "upc",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "weight",
+          "name": "weight",
+          "basename": "weight",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "Unnamed: 26",
+          "name": "Unnamed: 26",
+          "basename": "Unnamed: 26",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "Unnamed: 27",
+          "name": "Unnamed: 27",
+          "basename": "Unnamed: 27",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "Unnamed: 29",
+          "name": "Unnamed: 29",
+          "basename": "Unnamed: 29",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "Unnamed: 30",
+          "name": "Unnamed: 30",
+          "basename": "Unnamed: 30",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        },
+        {
+          "fid": "gw_mea_key_fid",
+          "name": "Measure names",
+          "analyticType": "dimension",
+          "semanticType": "nominal"
+        }
+      ],
+      "measures": [
+        {
+          "fid": "prices.amountMax",
+          "name": "prices.amountMax",
+          "basename": "prices.amountMax",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "fid": "prices.amountMin",
+          "name": "prices.amountMin",
+          "basename": "prices.amountMin",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "fid": "Unnamed: 28",
+          "name": "Unnamed: 28",
+          "basename": "Unnamed: 28",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "offset": 0
+        },
+        {
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          }
+        },
+        {
+          "fid": "gw_mea_val_fid",
+          "name": "Measure values",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum"
+        }
+      ],
+      "rows": [
+        {
+          "fid": "name",
+          "name": "name",
+          "basename": "name",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        }
+      ],
+      "columns": [
+        {
+          "fid": "prices.amountMax",
+          "name": "prices.amountMax",
+          "basename": "prices.amountMax",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "max",
+          "offset": 0
+        }
+      ],
+      "color": [
+        {
+          "fid": "name",
+          "name": "name",
+          "basename": "name",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0
+        }
+      ],
+      "opacity": [],
+      "size": [],
+      "shape": [],
+      "radius": [],
+      "theta": [],
+      "longitude": [],
+      "latitude": [],
+      "geoId": [],
+      "details": [
+        {
+          "fid": "gw_count_fid",
+          "name": "Row count",
+          "analyticType": "measure",
+          "semanticType": "quantitative",
+          "aggName": "sum",
+          "computed": true,
+          "expression": {
+            "op": "one",
+            "params": [],
+            "as": "gw_count_fid"
+          }
+        }
+      ],
+      "filters": [
+        {
+          "fid": "name",
+          "name": "name",
+          "basename": "name",
+          "semanticType": "nominal",
+          "analyticType": "dimension",
+          "offset": 0,
+          "rule": {
+            "type": "one of",
+            "value": [
+              "4TB Network OEM HDD Retail Kit (8-Pack, WD40EFRX, Red Drives)",
+              "MU8000-Series 65-Class HDR UHD Smart LED TV",
+              "SAMSUNG 65 Class 4K (2160P) Ultra HD Smart QLED HDR TV QN65Q6FNAFXZA (2018 Model)\"",
+              "XBR-X850E-Series 75-Class HDR UHD Smart LED TV",
+              "LG Electronics OLED65C7P 65-Inch 4K Ultra HD Smart OLED TV - Refurbished",
+              "UBD-M9500 HDR UHD Upscaling Blu-ray Disc Player",
+              "15.4 MacBook Pro with Touch Bar (Late 2016, Space Gray)",
+              "MU9000-Series 65-Class HDR UHD Smart LED TV"
+            ]
+          }
+        }
+      ],
+      "text": []
+    },
+    "layout": {
+      "showActions": false,
+      "showTableSummary": false,
+      "stack": "stack",
+      "interactiveScale": false,
+      "zeroScale": true,
+      "size": {
+        "mode": "auto",
+        "width": 320,
+        "height": 200
+      },
+      "format": {},
+      "geoKey": "name",
+      "resolve": {
+        "x": false,
+        "y": false,
+        "color": false,
+        "opacity": false,
+        "shape": false,
+        "size": false
+      }
+    },
+    "visId": "gw_t_QY",
+    "name": "Chart 1"
+  }
+]
