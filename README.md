@@ -2,14 +2,12 @@
 
 Este repositorio contiene el análisis y visualización del mercado de productos electrónicos, desarrollado como parte del proyecto final para la materia de Inteligencia Artificial Aplicada.
 
----
 
 ## 👥 Autores
 
 - **Lincango Simbaña Betsy Belén**
 - **Lincango Simbaña Dennis David**
 
----
 
 ## 📊 Descripción del Proyecto
 
@@ -19,7 +17,6 @@ El proyecto incluye:
 - Uso de herramientas como Python, Pandas, Matplotlib, Pygwalker y Streamlit.
 - Generación de datos sintéticos para simulación de mercado.
 
----
 
 ## 🔗 Enlaces Relacionados
 
